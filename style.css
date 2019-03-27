@@ -5,6 +5,14 @@ html, body {
     padding: 0;
 }
 
+/* Farver:
+Lys grå: #E8E6E1
+Mørk grå: #AFA3A2
+Lys grøn: #C0C1AD
+Mørk grøn: #575E4D
+Gul: #ECC53A
+*/ 
+
 a {
     text-decoration: none;
 }
@@ -13,7 +21,7 @@ h1 {
     margin: 0;
 }
 
-/* ------------------------------------ Menusystem -------------------------------------- */
+/* ------------------------------------------------ Menusystem ------------------------------------------------ */
 
 .logo {
     max-height: 10vh;
@@ -77,18 +85,18 @@ h1 {
     display: inline-block;
 }
 
-/* ----------------------------- Header -------------------------------- */
+/* ------------------------------------------- Header ---------------------------------------------- */
 
 .header {
     background-image: url(Billeder/womanwmobile.jpg);
     background-size: cover;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 120%, 0 100vh);
-    clip-path: polygon(0 0, 100% 0, 100% 120%, 0 100vh);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
     height: 120%;
     width: 100%;
 }
 
-.header_billede {
+.header_box {
     background-color: #fdfdfd;
     opacity: 0.9;
     border-radius: 6px;
@@ -100,21 +108,135 @@ h1 {
     
 }
 
-.header_box {
+.header_heading {
     text-transform: uppercase;
     margin: 3rem;
 }
 
-.header_box_1 {
+.header_box_part {
     display: block;
 }
 
-.header_box_2 {
-    display: block;
+/* --------------------------------------------- Test section ------------------------------------------ */
+
+.test {
+    background-color: #E8E6E1;
+    height: 150%;
+    position: relative;
+    top: -11rem;
+    z-index: -2;
 }
 
-.header_box_3 {
+.test_box {
+
+}
+
+.test_heading {
+    position: absolute;
+    font-size: 4rem;
+    top: 20%;
+    left: 13%;
+}
+
+.test_box_part {
     display: block;
+    text-align: center;
+}
+
+.test_button {
+    position: absolute;
+    font-size: 2rem;
+    top: 45%;
+    left: 25%;
+}
+
+.test_billede {
+    height: 85%;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+}
+
+/* --------------------------------------------- Rundvisning section ------------------------------------------------ */
+
+.rundvisning {
+    background-color: #C0C1AD;
+    height: 150%;
+    position: relative;
+    top: -11rem;
+    -webkit-clip-path: polygon(0% 16%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0% 16%, 100% 0, 100% 100%, 0 100%);
+}
+
+.rundvisning_box {
+
+}
+
+.rundvisning_heading {
+    position: absolute;
+    font-size: 4rem;
+    top: 20%;
+    left: 43%;
+}
+
+.rundvisning_box_part {
+    display: block;
+    text-align: center;
+}
+
+.rundvisning_button {
+    position: absolute;
+    font-size: 2rem;
+    top: 45%;
+    left: 62%;
+}
+
+.rundvisning_billede {
+    height: 85%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+/* ---------------------------------------------- Kompas section -------------------------------------------- */
+
+.kompas {
+    background-color: #E8E6E1;
+    height: 150%;
+    position: relative;
+    top: -11rem;
+    -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+}
+
+.kompas_box {
+
+}
+
+.kompas_heading {
+    position: absolute;
+    font-size: 4rem;
+    top: 23%;
+    left: 13%;
+}
+
+.kompas_box_part {
+    display: block;
+    text-align: center;
+}
+
+.kompas_button {
+    position: absolute;
+    font-size: 2rem;
+    top: 45%;
+    left: 16%;
+}
+
+.kompas_billede {
+    height: 85%;
+    position: absolute;
+    top: 25%;
+    left: 60%;
 }
 
 @media only screen and (min-width: 750px) {
