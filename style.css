@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1, p {
     margin: 0;
 }
 
@@ -160,16 +160,15 @@ h1 {
 /* --------------------------------------------- Rundvisning section ------------------------------------------------ */
 
 .rundvisning {
-    background-color: #C0C1AD;
-    height: 150%;
     position: relative;
     top: -11rem;
-    -webkit-clip-path: polygon(0% 16%, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0% 16%, 100% 0, 100% 100%, 0 100%);
 }
 
 .rundvisning_box {
-
+    background-color: #C0C1AD;
+    height: 150%;
+    -webkit-clip-path: polygon(0% 16%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0% 16%, 100% 0, 100% 100%, 0 100%);
 }
 
 .rundvisning_heading {
@@ -201,16 +200,15 @@ h1 {
 /* ---------------------------------------------- Kompas section -------------------------------------------- */
 
 .kompas {
-    background-color: #E8E6E1;
-    height: 150%;
     position: relative;
     top: -11rem;
-    -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
-    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
 }
 
 .kompas_box {
-
+    background-color: #E8E6E1;
+    height: 150%;
+    -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
 }
 
 .kompas_heading {
@@ -237,6 +235,129 @@ h1 {
     position: absolute;
     top: 25%;
     left: 60%;
+}
+
+/* ------------------------------------------------- Citat sektion ---------------------------------------------------- */
+
+.citat {
+    height: 40%;
+    width: 100%;
+    background-color: #AFA3A2;
+    position: relative;
+    top: -7rem;
+}
+
+.citat_box {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 100%;
+}
+
+.citat_p {
+    
+}
+
+.citat_p_part1 {
+    font-size: 4rem;
+}
+
+.citat_p_part2 {
+    font-size: 2rem;
+}
+
+/* ------------------------------------------------------- Aarhus sektion ----------------------------------------------------- */
+
+.aarhus {
+    background-image: url(Billeder/aarhusskyeline.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.aarhus_box {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    text-align: center;
+}
+
+.aarhus_heading {
+
+}
+
+.aarhus_box_part {
+    font-size: 4rem;
+}
+
+.aarhus_button {
+
+}
+
+/* ----------------------------------------------------------- Footer ----------------------------------------------------------- */
+
+.footer {
+    height: 50%;
+    background-color: #C0C1AD;
+    border-top: 5px solid #575E4D;
+    
+}
+
+.footer_indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+    
+}
+
+.footer_logo {
+    width: 60%;
+    margin: 1rem 2rem;
+}
+
+.footer_kontakt {
+
+}
+
+.footer_h {
+
+}
+
+.footer_p {
+
+}
+
+.footer_link {
+
+}
+
+.footer_so-me {
+
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.footer_dato {
+    margin: 2rem;
+}
+
+.footer_p2 {
+    margin-top: 1rem;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 750px) {
