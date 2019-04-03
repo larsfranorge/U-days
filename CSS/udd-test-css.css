@@ -18,6 +18,7 @@ a {
     color: black;
 }
 
+
 h1, p {
     margin: 0;
 }
@@ -29,6 +30,8 @@ h1, h2 {
 p, a, h4 {
     font-family: lato;
 }
+
+/* ------------------------------------------------ Menusystem ------------------------------------------------ */
 
 .logo {
     max-height: 10vh;
@@ -125,10 +128,150 @@ p, a, h4 {
     display: block;
 }
 
+/* --------------------------------------------- Test section ------------------------------------------ 
+
+.test {
+    background-color: #E8E6E1;
+    height: 130%;
+    position: relative;
+    top: -11rem;
+    z-index: -2;
+}
+
+.test_box {
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    text-align: center;
+}
+
+.test_heading {
+    font-size: 3rem;
+    animation: moveInLeft 1s linear;
+}
+
+.test_box_part {
+    display: block;
+}
+
+.button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    background-color: #575E4D;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.test_billede {
+    height: 85%;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+}
+*/
+
+/* ------------------------------------------------------- Testen ------------------------------------------------------------- */
+body{
+    font-size: 1.3vw;
+    font-family: lato;
+    color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #E8E6E1;
+}
+.question{
+  font-family: montserrat;
+  font-size: 1.7vw;
+  margin-bottom: 25px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8rem;
+    background-color: #575E4D;
+    color: #fff;
+}
+button:hover{
+    background-color: #38a;
+}
+
+button:focus {outline:0;}
+
+.string {
+    font-size: 2em;
+    font-family: montserrat;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.resultat-titel {
+    font-family: montserrat;
+    font-size: 1.3em;
+    text-align: center;
+    color: #575E4D;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.resultat {
+    font-size: 1em;
+    text-align: center;
+    color: #AFA3A2;
+}
+
+.se-mere {
+    margin-top: 20px;
+    font-family: flood std;
+    text-align: center;
+    font-size: 1em;
+    color: #ECC53A;
+}
+
+.program {
+    margin-top: 10px;
+    color: white;
+    font-family: flood std;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
 /* ------------------------------------------------------- Aarhus sektion ----------------------------------------------------- */
 
 .aarhus {
-    background-image: url(../Billeder/aarhusskyeline.png);
+    background-image: url(../Billeder/aarhusskyline.png);
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -136,24 +279,6 @@ p, a, h4 {
     width: 100%;
     position: relative;
 }
-
-.aarhus_box {
-    position: absolute;
-    top: 5%;
-    left: 13%;
-    text-align: center;
-}
-
-.aarhus_heading {
-
-}
-
-.aarhus_box_part {
-    font-size: 4rem;
-    font-family: flood std;
-    color: #ecc53a;
-}
-
 /* ----------------------------------------------------------- Footer ----------------------------------------------------------- */
 
 .footer {
