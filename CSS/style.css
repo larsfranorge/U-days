@@ -383,6 +383,36 @@ p, a, h4 {
     color: #fff;
 }
 
+/* -------------------------------------------------------- Udd-Kompas ----------------------------------------------------------- */
+
+.header-kompas {
+    background-image: url(../Billeder/lost.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
+    height: 120%;
+    width: 100%;
+}
+
+.uddannelses_kompasset {
+    background-color: #C0C1AD;
+    height: 150%;
+    position: relative;
+    top: -11rem;
+    z-index: -2;
+    
+}
+
+.uddannelses_kompasset_billede {
+    position: absolute;
+    width: 80%;
+    top: 15%;
+    left: 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+
+}
+
 @media only screen and (min-width: 750px) {
     .menu {
         width: 30%;
