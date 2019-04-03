@@ -97,7 +97,7 @@ p, a, h4 {
 /* ------------------------------------------- Header ---------------------------------------------- */
 
 .header {
-    background-image: url(Billeder/womanwmobile.jpg);
+    background-image: url(../Billeder/womanwmobile.jpg);
     background-size: cover;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
@@ -282,7 +282,7 @@ p, a, h4 {
 /* ------------------------------------------------------- Aarhus sektion ----------------------------------------------------- */
 
 .aarhus {
-    background-image: url(Billeder/aarhusskyline.png);
+    background-image: url(../Billeder/aarhusskyline.png);
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
