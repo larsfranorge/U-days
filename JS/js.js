@@ -112,18 +112,18 @@
 
     if (a >= 2)
       udd = ` <div>
-      <p class="resultat-titel">Multimediedesigner</h1>
-      <p class="resultat">Hvis du kan lide at plaspldapsdlapsdasdasdjasjd <br> Så ville du helt sikkert kunasdasdh ashdhasdhasdhahsd <br> På uddannelsen kommer ud til at askdhasjdhassahj <br> Du kommer også til at beskæftige dig med asodkasodkaosdjasdoajsodjasod</p>
+      <p class="resultat-titel">Multimediedesigner</p>
+      
       <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
       <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
 
-      <p class="resultat-titel">Datamatiker</h1>
-      <p class="resultat">Hvis du kan lide at plaspldapsdlapsdasdasdjasjd <br> Så ville du helt sikkert kunasdasdh ashdhasdhasdhahsd <br> På uddannelsen kommer ud til at askdhasjdhassahj</p>
+      <p class="resultat-titel">Datamatiker</p>
+      
       <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
       <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
 
-      <p class="resultat-titel">IT-Teknolog</h1>
-      <p class="resultat">Hvis du kan lide at plaspldapsdlapsdasdasdjasjd <br> Så ville du helt sikkert kunasdasdh ashdhasdhasdhahsd <br> På uddannelsen kommer ud til at askdhasjdhassahj</p>
+      <p class="resultat-titel">IT-Teknolog</p>
+      
       <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
       <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
   </div>`;
