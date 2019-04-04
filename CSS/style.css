@@ -33,7 +33,7 @@ p, a, h4 {
 /* ------------------------------------------------ Menusystem ------------------------------------------------ */
 
 .logo {
-    max-height: 10vh;
+    max-height: 78px;
     float: left;
     margin: 12px 0 0 10px;
 }
@@ -41,7 +41,6 @@ p, a, h4 {
 .nav {
     background-color: #fff;
     opacity: .7;
-    
     height: 78px;
     line-height: 70px;
     z-index: 3;
@@ -279,6 +278,21 @@ p, a, h4 {
     float: right;
 }
 
+/* ----------------------------------------------------- Instagram sektion ---------------------------------------------------- */
+
+.instagram {
+    height: 50%;
+    background-color: #575E4D;
+    position: relative;
+    top: -7%;
+}
+
+.instagram_box {
+    width: 80%;
+    transform: translateX(10%);
+    justify-content: center;
+}
+
 /* ------------------------------------------------------- Aarhus sektion ----------------------------------------------------- */
 
 .aarhus {
@@ -325,6 +339,7 @@ p, a, h4 {
 .footer_logo {
     width: 60%;
     transform: translateX(40%);
+    margin-top: 15%;
 }
 
 .footer_kontakt {
@@ -442,11 +457,7 @@ p, a, h4 {
     }
 
     .logo {
-        max-height: 20vh;
+        max-height: 8vh;
         float: left;
-    }
-
-    .logo:hover {
-        max-height: 30vh;
     }
 }
