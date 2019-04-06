@@ -36,12 +36,12 @@
       },
     },
     {
-      question: "Spørgsmål 5 (Find på noget)",
+      question: "Hvornår føler du dig mest presset?",
       answers: {
-        a: "En",
-        b: "To",
-        c: "Tre",
-        d: "Fire"
+        a: "Når jeg skal sidde og lytte hele dagen?",
+        b: "Når jeg ikke kan sidde og følge hele processen?",
+        c: "Når der nærmest kun er teoretisk arbejde?",
+        d: "Når jeg er udenfor hele dagen med venner og familie uden smartphone og pc?"
       },
     }
   ];
@@ -111,21 +111,88 @@
     });
 
     if (a >= 2)
-      udd = ` <div>
-      <p class="resultat-titel">Multimediedesigner</p>
-      
-      <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
-      <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
-
-      <p class="resultat-titel">Datamatiker</p>
-      
-      <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
-      <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
-
-      <p class="resultat-titel">IT-Teknolog</p>
-      
-      <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
-      <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Multimedie-designer</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Design</li>
+                          <li>Kommunikation</li>
+                          <li>Programmering</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i>Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Datamatiker</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i>Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">IT-Teknolog</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i>Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>`;
     if (b >= 2)
       udd = "Datamatiker ";
