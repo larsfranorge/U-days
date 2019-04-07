@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/yox7lpk.css">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <script src="JS/js.js"></script>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-     <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
-     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.min.js'></script>
-     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.css' type='text/css' />
-     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
 
     <title>Document</title>
 </head>
@@ -42,19 +38,48 @@
     <section class="youtube">
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-ck-7NS9d5U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
+
+    <section class="multimedie">
+
+        
+    </section>
     <section class="mapbox1">
 
-    <!--  the map -->
-    <div id='map'></div>
-    <!-- geocoder search input -->
-    <div class="geocoder">
-        <div id="geocoder" ></div>
-    </div>
-    <!-- left side instructions -->
-    <div id='instructions'>
-        <div id="calculated-line"></div>
-    </div>
-</section>
+            <div id='map' style='width: 100%; height: 100%;'></div>
+        </section>
+            
+        
+        <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.0/mapbox-gl-directions.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.0/mapbox-gl-directions.css' type='text/css' />
+
+ 
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoibnl5c3RlZCIsImEiOiJjanRqcXdjZm0xMmlyM3lwa25uaHFiZzk3In0.esl6CDTfOUEAwlmAH6KfhQ';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [10.158820500000047, 56.11967149999999],
+zoom: 13
+});
+ 
+map.addControl(new MapboxDirections({
+accessToken: mapboxgl.accessToken
+}), 'top-left');
+</script>
+  <section class="instagram">
+        <div class="instagram_box">
+            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://lightwidget.com/widgets/ded3a9ffd9815bd0a902e433a3159ff2.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+        </div>
+    </section>
+    <section class="aarhus">
+        <div class="aarhus_box">
+            <h2 class="aarhus_heading">
+                <span class="aarhus_box_part">Aarhus har det hele</span>
+            </h2>
+        </div>
+        
+
+    </section>
 </main>
 
 <footer class="footer">
