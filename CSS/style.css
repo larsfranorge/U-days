@@ -431,6 +431,53 @@ p, a, h4 {
 
 }
 
+/* ------------------------------------------------------- Mapbox ----------------------------------------------------- */
+
+.multimediedesign {
+    background-color: #E8E6E1;
+    height: 80%;
+    width: 100%;
+    -webkit-clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0 100%);
+    z-index: 20;
+    top: 90%;
+    position: absolute;
+}
+
+.multimediedesign_h {
+    font-family: montserrat;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 7%;
+    color: #fff;
+}
+
+.multimediedesign_p {
+    font-family: lato;
+    text-align: center;
+    margin: 5% 15%;
+    font-size: 1.5rem;
+}
+/* ------------------------------------------------------- Multimediesiden ----------------------------------------------------- */
+
+
+/* ------------------------------------------------------- Mapbox ----------------------------------------------------- */
+
+.mapbox1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_multimedeidesign {
+    position: absolute;
+    top: 210%;
+    height: 50%;
+    width: 100%;
+    background-color: #C0C1AD;
+
+}
+
 @media only screen and (min-width: 750px) {
     .menu {
         width: 30%;
@@ -464,14 +511,3 @@ p, a, h4 {
         float: left;
     }
 }
-/* ------------------------------------------------------- Multimediesiden ----------------------------------------------------- */
-
-
-/* ------------------------------------------------------- Mapbox ----------------------------------------------------- */
-
-.mapbox1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
