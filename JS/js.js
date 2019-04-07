@@ -122,7 +122,7 @@
                       &nbsp;
                   </div>
                   <h4 class="card__heading">
-                      <span class="card__heading-span card__heading-span--1">Multimedie-designer</span>
+                      <span class="card__heading-span card__heading-span--1">Multimediedesigner</span>
                   </h4>
                   <div class="card__details">
                       <ul>
@@ -153,9 +153,9 @@
                   </h4>
                   <div class="card__details">
                       <ul>
-                          <li>Fag 1</li>
-                          <li>Fag 2</li>
-                          <li>Fag 3</li>
+                          <li>Systemudvikling</li>
+                          <li>Forretning og IT</li>
+                          <li>Programmering</li>
                       </ul>
                   </div>
               </div>
@@ -180,9 +180,9 @@
                   </h4>
                   <div class="card__details">
                       <ul>
-                          <li>Fag 1</li>
-                          <li>Fag 2</li>
-                          <li>Fag 3</li>
+                          <li>Netværksteknologi</li>
+                          <li>IT-sikkerhed</li>
+                          <li>Programmering</li>
                       </ul>
                   </div>
               </div>

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -11,7 +12,7 @@ Mørk grå: #AFA3A2
 Lys grøn: #C0C1AD
 Mørk grøn: #575E4D
 Gul: #ECC53A
-*/ 
+*/
 
 a {
     text-decoration: none;
@@ -19,15 +20,19 @@ a {
 }
 
 
-h1, p {
+h1,
+p {
     margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: montserrat;
 }
 
-p, a, h4 {
+p,
+a,
+h4 {
     font-family: lato;
 }
 
@@ -61,7 +66,7 @@ p, a, h4 {
 .menu a {
     display: block;
     color: #000;
-    
+
 }
 
 .menu2 {
@@ -92,7 +97,7 @@ p, a, h4 {
     display: none;
 }
 
-#toggle:checked + .menu {
+#toggle:checked+.menu {
     display: inline-block;
 }
 
@@ -117,12 +122,12 @@ p, a, h4 {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 4rem 3rem;
-    
+
 }
 
 .header_heading {
     font-family: flood std;
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .header_box_part {
@@ -173,29 +178,33 @@ p, a, h4 {
 */
 
 /* ------------------------------------------------------- Testen ------------------------------------------------------------- */
-body{
+body {
     font-size: 1.3vw;
     font-family: lato;
     color: #333;
-  font-weight: 300;
-  text-align: center;
-  background-color: #E8E6E1;
+    font-weight: 300;
+    text-align: center;
+    background-color: #E8E6E1;
 }
-.question{
-  font-family: montserrat;
-  font-size: 1.7vw;
-  margin-bottom: 25px;
+
+.question {
+    font-family: montserrat;
+    font-size: 1.7vw;
+    margin-bottom: 25px;
 }
+
 .answers {
-  margin-bottom: 20px;
-  text-align: left;
-  display: inline-block;
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
 }
-.answers label{
-  display: block;
-  margin-bottom: 10px;
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
 }
-button{
+
+button {
     margin-top: 20px;
     font-size: 1.1rem;
     padding: 0.8rem 1.5rem;
@@ -203,11 +212,14 @@ button{
     background-color: #575E4D;
     color: #fff;
 }
-button:hover{
+
+button:hover {
     background-color: #38a;
 }
 
-button:focus {outline:0;}
+button:focus {
+    outline: 0;
+}
 
 .string {
     font-size: 1.5em;
@@ -251,23 +263,25 @@ button:focus {outline:0;}
 
 
 
-.slide{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s;
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
-.active-slide{
-  opacity: 1;
-  z-index: 2;
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
 }
-.quiz-container{
-  position: relative;
-  height: 200px;
-  margin-top: 40px;
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
 }
 
 #results {
@@ -286,6 +300,7 @@ button:focus {outline:0;}
     width: 100%;
     position: relative;
 }
+
 /* ----------------------------------------------------------- Footer ----------------------------------------------------------- */
 
 .footer {
@@ -297,7 +312,7 @@ button:focus {outline:0;}
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
     padding-top: 4rem;
-    color: #575e4d;   
+    color: #575e4d;
 }
 
 .footer_logo {
@@ -317,12 +332,12 @@ button:focus {outline:0;}
 }
 
 .footer_h:before {
-    content : "";
+    content: "";
     position: absolute;
-    left    : 0;
-    bottom  : -50%;
-    height  : 1px;
-    width   : 150%;
+    left: 0;
+    bottom: -50%;
+    height: 1px;
+    width: 150%;
     border-bottom: 2px solid #575E4D;
 }
 
@@ -395,130 +410,251 @@ button:focus {outline:0;}
         margin: 12px 0 0 10px;
     }
 
+    
+
 }
+
+@media only screen and (max-width: 700px) {
+
+    .header_heading {
+        font-family: flood std;
+        font-size: 2rem;
+    }
+
+    .header_box {
+        background-color: #fdfdfd;
+        opacity: 0.9;
+        border-radius: 6px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 3rem 3rem;
+    }
+
+    body {
+        font-size: 0.7rem;
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .string {
+        font-size: 1.3em;
+    }
+
+    .aarhus { 
+        height: 40%;
+    }
+
+    .footer_p2 {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        font-family: flood std;
+        color: #fff;
+    }
+
+}
+
 
 /* ------------------------------------------ CARDS SECTION -------------------------------------------------------------*/
 
+/* Mobil-version: Sæt .row til en fast størrelse, og rod lidt med margin mellem kortene. */
+
 .row {
     max-width: 80%;
-    margin: 0 auto; }
-    .row:not(:last-child) {
-      margin-bottom: 8rem; }
-    .row::after {
-      content: "";
-      display: table;
-      clear: both; }
-    .row [class^="col-"] {
-      float: left; }
-      .row [class^="col-"]:not(:last-child) {
-        margin-right: 6rem; }
-    .row .col-1-of-2 {
-      width: calc((100% - 6rem) / 2); }
-    .row .col-1-of-3 {
-      width: calc((100% - 2 * 6rem) / 3); }
-    .row .col-2-of-3 {
-      width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
-    .row .col-1-of-4 {
-      width: calc((100% - 3 * 6rem) / 4); }
-    .row .col-2-of-4 {
-      width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
-    .row .col-3-of-4 {
-      width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+    margin: 0 auto;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 8rem;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class^="col-"] {
+    float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+}
+
+.row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+}
+
+.row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+
+.row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4);
+}
+
+.row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+
+.row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+
 
 .card {
     perspective: 150vw;
     -moz-perspective: 150vw;
     position: relative;
-    height: 40vw; }
-    .card__side {
-      height: 40vw;
-      transition: all .8s ease;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      backface-visibility: hidden;
-      border-radius: 3px;
-      overflow: hidden;
-      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-      .card__side--front {
-        background-color: #fff; }
-      .card__side--back {
-        transform: rotateY(180deg); }
-        .card__side--back-1 {
-          background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
-        .card__side--back-2 {
-          background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
-        .card__side--back-3 {
-          background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
-    .card:hover .card__side--front {
-      transform: rotateY(-180deg); }
-    .card:hover .card__side--back {
-      transform: rotateY(0); }
-    .card__picture {
-      background-size: cover;
-      height: 15vw;
-      background-blend-mode: screen;
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-      border-top-left-radius: 3px;
-      border-top-right-radius: 3px; }
-      .card__picture--1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../Billeder/Laptop.png); }
-      .card__picture--2 {
-        background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../Billeder/Code.png); }
-      .card__picture--3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../Billeder/electronics.png); }
-    .card__heading {
-      font-size: 2vw;
-      font-weight: 300;
-      text-transform: uppercase;
-      text-align: right;
-      color: #fff;
-      position: absolute;
-      top: 10vw;
-      right: 2vw;
-      width: 75%; }
-    .card__heading-span {
-      padding: 1vw 1.5vw;
-      -webkit-box-decoration-break: clone;
-      box-decoration-break: clone; }
-      .card__heading-span--1 {
-        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
-      .card__heading-span--2 {
-        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
-      .card__heading-span--3 {
-        background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
-    .card__details {
-      padding: 3vw; 
-      margin-top: 3vw;
-    }
-      .card__details ul {
-        list-style: none;
-        width: 80%;
-        padding: 0;
-        margin: 0 auto; }
-        .card__details ul li {
-          text-align: center;
-          font-size: 1.5vw;
-          padding: 1vw; }
-          .card__details ul li:not(:last-child) {
-            border-bottom: 1px solid #eee; }
-    .card__cta {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 90%; }
-    .card__price-box {
-      text-align: center;
-      color: #fff;
-      margin-bottom: 8vw; }
-    .card__price-only {
-      font-size: 1vwrem;
-      text-transform: uppercase; }
-    .card__price-value {
-      font-size: 3vw;
-      font-weight: 100;
-      margin-bottom: 8%;
-     }
+    height: 40vw;
+}
+
+.card__side {
+    height: 40vw;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.card__side--front {
+    background-color: #fff;
+}
+
+.card__side--back {
+    transform: rotateY(180deg);
+}
+
+.card__side--back-1 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.card__side--back-2 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.card__side--back-3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+.card:hover .card__side--front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+    transform: rotateY(0);
+}
+
+.card__picture {
+    background-size: cover;
+    height: 15vw;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card__picture--1 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../Billeder/Laptop.png);
+}
+
+.card__picture--2 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../Billeder/Code.png);
+}
+
+.card__picture--3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../Billeder/electronics.png);
+}
+
+.card__heading {
+    font-size: 1.5vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 10vw;
+    right: 4vw;
+    width: 75%;
+}
+
+.card__heading-span {
+    padding: 1vw 1.5vw;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.card__heading-span--1 {
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+}
+
+.card__heading-span--2 {
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+}
+
+.card__heading-span--3 {
+    background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+}
+
+.card__details {
+    padding: 3vw;
+    margin-top: 3vw;
+}
+
+.card__details ul {
+    list-style: none;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.card__details ul li {
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+.card__details ul li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8vw;
+}
+
+.card__price-only {
+    font-size: 1vwrem;
+    text-transform: uppercase;
+}
+
+.card__price-value {
+    font-size: 3vw;
+    font-weight: 100;
+    margin-bottom: 8%;
+}
