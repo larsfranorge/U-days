@@ -278,6 +278,9 @@ p, a, h4 {
     float: right;
 }
 
+
+
+
 /* ----------------------------------------------------- Instagram sektion ---------------------------------------------------- */
 
 .instagram {
@@ -460,4 +463,33 @@ p, a, h4 {
         max-height: 8vh;
         float: left;
     }
+}
+
+/* ------------------------------------------------------- Mapbox ----------------------------------------------------- */
+
+
+.geocoder {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 15px;
+    text-align: left;
+    font-family: 'Arial';
+    margin: 0;
+    font-size: 13px;
+}
+#instructions {
+    position:absolute;
+    height: 50px;
+    margin:20px;
+    width: 25%;
+    top:0;
+    bottom:0;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    overflow-y: scroll;
+    font-family: sans-serif;
 }

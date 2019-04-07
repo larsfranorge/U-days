@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/yox7lpk.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+     <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.min.js'></script>
+     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.css' type='text/css' />
+     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header2">
+        <nav class="nav">
+            <a href="index.html">
+                <img class="logo" alt="U-days logo" src="Billeder/udayslogosort.png">
+            </a>
+            <label class="toggle" for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu">
+                <a href="index.html">Forside</a>
+                <a href="#">Uddannelser</a>
+                <a href="udd-test.html">Uddannelsestesten</a>
+                <a href="udd-kompas.html">Uddannelses-kompasset</a>
+            </div>
+            <div class="menu2">
+                <a href="index.html">Forside</a>
+                <a href="#">Uddannelser</a>
+                <a href="udd-test.html">Uddannelsestesten</a>
+                <a href="udd-kompas.html">Uddannelses-kompasset</a>
+            </div>
+        </nav>
+        <div class="header_box">
+            <h1 class="header_heading">
+                <span class="header_box_part">14 Uddannelser</span>
+                <span class="header_box_part">3 Dage</span>
+                <span class="header_box_part">1 Overblik</span>
+            </h1>
+        </div>
+    </header>
+<main>
+
+    
+    <!--  the map -->
+    <div id='map'></div>
+    <!-- geocoder search input -->
+    <div class="geocoder">
+        <div id="geocoder" ></div>
+    </div>
+    <!-- left side instructions -->
+    <div id='instructions'>
+        <div id="calculated-line"></div>
+    </div>
+ 
+</main>
+
+<footer class="footer">
+    <div class="footer_indhold">
+        <img class="footer_logo" alt="U-days logo" src="Billeder/Udayslogo.png">
+        <div class="footer_kontakt">
+            <h4 class="footer_h">Kontakt os</h4>
+            <p class="footer_p">Sønderhøj 30</p>
+            <p class="footer_p">8260 Viby</p>
+            <p class="footer_p">72 28 60 00</p>
+            <p class="footer_p">u-days@au.dk</p>
+        </div>
+        <div class="footer_link">
+            <h4 class="footer_h">Links</h4>
+            <p class="footer_p">Find Vej</p>
+            <p class="footer_p">Studiemiljø</p>
+            <p class="footer_p">Dit Program</p>
+            <p class="footer_p">Om U-Days</p>
+        </div>
+        <div class="footer_so-me">
+            <h4 class="footer_h">Følg med på</h4>
+            <a href="#">
+            <i class="fab fa-facebook-square fa-2x awesome">&nbsp<p class="footer_so-me_p">Facebook</p></i>
+            </a>
+            <a href="#">
+            <i class="fab fa-youtube-square fa-2x awesome">&nbsp<p class="footer_so-me_p">Youtube</p></i>
+            </a>
+            <a class="footer_so-me_a href="#">
+            <i class="fab fa-instagram fa-2x awesome">&nbsp<p class="footer_so-me_p"> Instagram</p></i>
+            </a>
+        </div>
+        <div class="footer_dato">
+            <p class="footer_p2">28 Februar</p>
+            <p class="footer_p2">1. & 2. Marts</p>
+            <p class="footer_p2">- 2019 -</p>
+        </div>
+    </div>
+</footer>
+    </body>
+    </html>
