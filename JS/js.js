@@ -227,8 +227,7 @@
       udd = "Digitalkonceptudvikler ";
     if (d >= 3)
       udd = "Webudvikler ";
-    // show number of correct answers out of total
-    //resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`; 
+    // Show a string of text before the results
     resultsContainer.innerHTML = `<p class="string"> Vi tror disse uddannelser ville passe godt til dig! <i class="far fa-smile"></i>` + udd;
 
   }
