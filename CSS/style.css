@@ -448,6 +448,7 @@ p, a, h4 {
     background-color: #C0C1AD;
     height: 80%;
     width: 100%;
+    position: relative;
 }
 
 .multimediedesign_h {
@@ -463,6 +464,31 @@ p, a, h4 {
     text-align: center;
     padding: 5% 15%;
     font-size: 1.5rem;
+    height: 50px;
+}
+
+.multimediedesign_p2 {
+    font-family: flood;
+    text-align: center;
+    font-size: 1.5rem;
+    color: yellow;
+    height: 100px;
+}
+.multimediedesign_p3 {
+    font-family: flood;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    height: 100px;
+}
+.multimediedesign_mulighed {
+    font-family: flood;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    height: 100px;
+    position: relative;
+    top: 70%;
 }
 
 .multimediedesign_opgave {
@@ -472,6 +498,29 @@ p, a, h4 {
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
 }
+
+.multimediedesign_beskriv {
+    padding-top: 20%;
+    font-family: lato;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.computerbillede {
+ position: absolute;
+ top: 70%;
+ left: 5%;
+ z-index: 20;
+
+}
+
+.multimediedesign_muligheder {
+background-image: url(../Billeder/multimediekarriere.jpg);
+background-size: cover;
+height: 100%;
+
+}
+
 /* ------------------------------------------------------- Multimediesiden ----------------------------------------------------- */
 
 
