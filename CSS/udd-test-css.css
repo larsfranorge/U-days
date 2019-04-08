@@ -285,8 +285,8 @@ button:focus {
 }
 
 #results {
-    border-bottom: #000 solid 2px;
-    padding-bottom: 50px;
+    border-bottom: #000 solid 1px;
+    padding-bottom: 30px;
 }
 
 /* ------------------------------------------------------- Aarhus sektion ----------------------------------------------------- */
@@ -376,141 +376,16 @@ button:focus {
     color: #fff;
 }
 
-@media only screen and (min-width: 750px) {
-    .menu {
-        width: 30%;
-        position: absolute;
-        right: 0;
-        margin-top: 78px;
-    }
 
-}
-
-@media only screen and (min-width: 1200px) {
-    .menu2 {
-        display: flex;
-        float: right;
-        justify-content: space-around;
-        margin: 0 auto;
-        width: 60%;
-        max-height: 10vh;
-    }
-
-    .menu2 a:hover {
-        color: #feb914;
-    }
-
-    .toggle {
-        display: none;
-    }
-
-    .logo {
-        max-height: 57px;
-        float: left;
-        margin: 12px 0 0 10px;
-    }
-
-    
-
-}
-
-@media only screen and (max-width: 700px) {
-
-    .header_heading {
-        font-family: flood std;
-        font-size: 2rem;
-    }
-
-    .header_box {
-        background-color: #fdfdfd;
-        opacity: 0.9;
-        border-radius: 6px;
-        position: absolute;
-        top: 55%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        padding: 3rem 3rem;
-    }
-
-    body {
-        font-size: 0.7rem;
-    }
-
-    .question {
-        font-size: 1.2rem;
-    }
-
-    .string {
-        font-size: 1.3em;
-    }
-
-    .aarhus { 
-        height: 40%;
-    }
-
-    .footer_p2 {
-        margin-top: 1rem;
-        text-align: center;
-        font-size: 1rem;
-        font-family: flood std;
-        color: #fff;
-    }
-
-}
 
 
 /* ------------------------------------------ CARDS SECTION -------------------------------------------------------------*/
 
-/* Mobil-version: Sæt .row til en fast størrelse, og rod lidt med margin mellem kortene. */
 
 .row {
     max-width: 80%;
     margin: 0 auto;
 }
-
-.row:not(:last-child) {
-    margin-bottom: 8rem;
-}
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.row [class^="col-"] {
-    float: left;
-}
-
-.row [class^="col-"]:not(:last-child) {
-    margin-right: 6rem;
-}
-
-.row .col-1-of-2 {
-    width: calc((100% - 6rem) / 2);
-}
-
-.row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3);
-}
-
-.row .col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
-}
-
-.row .col-1-of-4 {
-    width: calc((100% - 3 * 6rem) / 4);
-}
-
-.row .col-2-of-4 {
-    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
-}
-
-.row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
-}
-
 
 .card {
     perspective: 150vw;
@@ -519,46 +394,7 @@ button:focus {
     height: 40vw;
 }
 
-.card__side {
-    height: 40vw;
-    transition: all .8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    backface-visibility: hidden;
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-}
 
-.card__side--front {
-    background-color: #fff;
-}
-
-.card__side--back {
-    transform: rotateY(180deg);
-}
-
-.card__side--back-1 {
-    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
-}
-
-.card__side--back-2 {
-    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
-}
-
-.card__side--back-3 {
-    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
-}
-
-.card:hover .card__side--front {
-    transform: rotateY(-180deg);
-}
-
-.card:hover .card__side--back {
-    transform: rotateY(0);
-}
 
 .card__picture {
     background-size: cover;
@@ -657,4 +493,347 @@ button:focus {
     font-size: 3vw;
     font-weight: 100;
     margin-bottom: 8%;
+}
+
+.mere {
+    margin-top: 20px;
+    font-family: flood std;
+}
+
+.mere_2 {
+    margin-top: 7px;
+    font-family: flood std;
+}
+
+/* --------------------------- Media quaries -------------------------- */
+
+@media only screen and (min-width: 750px) {
+    .menu {
+        width: 30%;
+        position: absolute;
+        right: 0;
+        margin-top: 78px;
+    }
+
+.space {
+    display: none;
+}
+
+.card__side {
+    height: 40vw;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.card__side--front {
+    background-color: #fff;
+}
+
+.card__side--back {
+    transform: rotateY(180deg);
+}
+
+.card__side--back-1 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.card__side--back-2 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.card__side--back-3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+
+.row:not(:last-child) {
+    margin-bottom: 8rem;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class^="col-"] {
+    float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+}
+
+.row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+}
+
+.row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+
+.row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4);
+}
+
+.row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+
+.row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+
+.card:hover .card__side--front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+    transform: rotateY(0);
+}
+
+.mere {
+    display: none;
+}
+
+.mere_2 {
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .menu2 {
+        display: flex;
+        float: right;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 60%;
+        max-height: 10vh;
+    }
+
+    .menu2 a:hover {
+        color: #feb914;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .logo {
+        max-height: 57px;
+        float: left;
+        margin: 12px 0 0 10px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 749px) {
+
+    .header {
+        background-image: url(../Billeder/guide.png);
+    }
+
+    .space {
+        margin-right: 5px;
+    }
+
+    .header_heading {
+        font-family: flood std;
+        font-size: 2rem;
+    }
+
+    .header_box {
+        background-color: #fdfdfd;
+        opacity: 0.9;
+        border-radius: 6px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 3rem 3rem;
+    }
+
+    body {
+        font-size: 0.7rem;
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .string {
+        font-size: 1.3em;
+    }
+
+    .aarhus { 
+        height: 40%;
+    }
+
+    .footer_p2 {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        font-family: flood std;
+        color: #fff;
+    }
+
+    .row {
+        max-width: 12rem;
+        margin: 0 auto;
+    }
+
+    .card {
+        perspective: 150vw;
+        -moz-perspective: 150vw;
+        position: relative;
+        height: 23rem;
+    }
+    
+    .card__side {
+        height: 20rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+    
+    .card__side--front {
+        background-color: #fff;
+    }
+    
+    .card__side--back {
+        transform: rotateY(180deg);
+    }
+    
+    .card__side--back-1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+    }
+    
+    .card__side--back-2 {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    }
+    
+    .card__side--back-3 {
+        background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+    }
+   
+    .card__picture {
+        background-size: cover;
+        height: 7rem;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    
+    .card__picture--1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../Billeder/Laptop.png);
+    }
+    
+    .card__picture--2 {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../Billeder/Code.png);
+    }
+    
+    .card__picture--3 {
+        background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../Billeder/electronics.png);
+    }
+    
+    .card__heading {
+        font-size: 0.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 4.5rem;
+        right: 4vw;
+        width: 75%;
+    }
+    
+    .card__heading-span {
+        padding: 0.6rem 0.8rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+    
+    .card__heading-span--1 {
+        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+    }
+    
+    .card__heading-span--2 {
+        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+    }
+    
+    .card__heading-span--3 {
+        background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+    }
+    
+    .card__details {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .card__details ul {
+        list-style: none;
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .card__details ul li {
+        text-align: center;
+        font-size: 0.6rem;
+        padding: 0.5rem;
+    }
+    
+    .card__details ul li:not(:last-child) {
+        border-bottom: 1px solid #eee;
+    }
+    
+    .card__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    
+    .card__price-box {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 8vw;
+    }
+    
+    .card__price-only {
+        font-size: 1vwrem;
+        text-transform: uppercase;
+    }
+    
+    .card__price-value {
+        font-size: 3vw;
+        font-weight: 100;
+        margin-bottom: 8%;
+    }
+
 }
