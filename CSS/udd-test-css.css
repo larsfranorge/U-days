@@ -611,6 +611,7 @@ button:focus {
     display: none;
 }
 
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -637,14 +638,18 @@ button:focus {
         margin: 12px 0 0 10px;
     }
 
-    
-
 }
 
 @media only screen and (max-width: 749px) {
 
+
+
     .header {
         background-image: url(../Billeder/guide.png);
+    }
+
+    button:hover {
+        background-color: #575E4D;
     }
 
     .space {
@@ -669,7 +674,7 @@ button:focus {
     }
 
     body {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .question {
@@ -720,7 +725,7 @@ button:focus {
     .card__side--front {
         background-color: #fff;
     }
-    
+    /*
     .card__side--back {
         transform: rotateY(180deg);
     }
@@ -736,7 +741,7 @@ button:focus {
     .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
     }
-   
+    */
     .card__picture {
         background-size: cover;
         height: 7rem;
@@ -836,4 +841,25 @@ button:focus {
         margin-bottom: 8%;
     }
 
+    .menu {
+        width: 100%;
+        z-index: 30;
+        font-size: 4vw;
+    }
+
+    .header_box {
+        width: 100%;
+        top: 78%;
+        left: 50%;
+        padding: 3rem 2.3rem;
+        
+    }
+
+    .card__price-value {
+        display: none;
+    }
+
+    .btn  {
+        display: none;
+    }
 }

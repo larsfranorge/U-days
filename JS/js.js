@@ -113,6 +113,7 @@
 
     });
 
+    /* Svarmulighed "A" er det eneste, der giver unikt resultat */
     if (a >= 2)
       udd = ` <div class="row">
       <div class="col-1-of-3">
@@ -204,35 +205,636 @@
       </div>
   </div>`;
     if (b >= 2)
-      udd = "Datamatiker ";
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>`;
     if (c >= 2)
-      udd = "Digitalkonceptudvikler ";
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>`;
     if (d >= 2)
-      udd = "Webudvikler ";
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>`;
 
     if (a >= 3)
-      udd = ` <div>
-      <p class="resultat-titel">Multimediedesigner</h1>
-      <p class="resultat">Hvis du kan lide at plaspldapsdlapsdasdasdjasjd <br> Så ville du helt sikkert kunasdasdh ashdhasdhasdhahsd <br> På uddannelsen kommer ud til at askdhasjdhassahj <br> Du kommer også til at beskæftige dig med asodkasodkaosdjasdoajsodjasod</p>
-      <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
-      <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
-
-      <p class="resultat-titel">Datamatiker</h1>
-      <p class="resultat">Hvis du kan lide at plaspldapsdlapsdasdasdjasjd <br> Så ville du helt sikkert kunasdasdh ashdhasdhasdhahsd <br> På uddannelsen kommer ud til at askdhasjdhassahj</p>
-      <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
-      <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
-
-      <p class="resultat-titel">IT-Teknolog</h1>
-      <p class="resultat">Hvis du kan lide at plaspldapsdlapsdasdasdjasjd <br> Så ville du helt sikkert kunasdasdh ashdhasdhasdhahsd <br> På uddannelsen kommer ud til at askdhasjdhassahj</p>
-      <a href="#"><p class="se-mere"> Se mere om uddannelsen <u>her</u> </p> </a>
-      <a href="#"><p class="program"><i class="fas fa-plus"></i> Tilføj til dit program </p> </a>
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Multimediedesigner</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Design</li>
+                          <li>Kommunikation</li>
+                          <li>Programmering</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Datamatiker</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Systemudvikling</li>
+                          <li>Forretning og IT</li>
+                          <li>Programmering</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">IT-Teknolog</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Netværksteknologi</li>
+                          <li>IT-sikkerhed</li>
+                          <li>Programmering</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>`;
     if (b >= 3)
-      udd = "Datamatiker ";
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>`;
     if (c >= 3)
-      udd = "Digitalkonceptudvikler ";
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>`;
     if (d >= 3)
-      udd = "Webudvikler ";
+      udd = ` <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                          <a href="../U-days/Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span> Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1-of-3">
+          <div class="card">
+              <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                      &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Uddannelse</span>
+                  </h4>
+                  <div class="card__details">
+                      <ul>
+                          <li>Fag 1</li>
+                          <li>Fag 2</li>
+                          <li>Fag 3</li>
+                          <a href="#"><li class="mere">Se mere om uddannelsen</li></a>
+                          <li class="mere_2"><i class="fas fa-plus"></i> <span class="space"></span>Tilføj til program</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                      <div class="card__price-box">
+                      <a href="#"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                      <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>`;
     // Show a string of text before the results
     resultsContainer.innerHTML = `<p class="string"> Vi tror disse uddannelser ville passe godt til dig! <i class="far fa-smile"></i>` + udd;
 
