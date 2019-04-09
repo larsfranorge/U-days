@@ -484,12 +484,14 @@ p, a, h4 {
 .multimediedesign_mulighed {
     font-family: flood;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
     height: 100px;
-    position: relative;
-    top: 70%;
+    position: absolute;
+    top: 325%;
+    left: 48%;
 }
+
 
 .multimediedesign_opgave {
     background-color: #E8E6E1;
@@ -519,6 +521,25 @@ background-image: url(../Billeder/multimediekarriere.jpg);
 background-size: cover;
 height: 100%;
 
+}
+.multimediedesign_moverskrift {
+    font-family: montserrat;
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    height: 100px;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.multimediedesign_m2 {
+    font-family: lato;
+    font-size: 1.2rem;
+    color: black;
+    position: relative;
+    top: 20%;
+    text-align: justify;
 }
 
 /* ------------------------------------------------------- Multimediesiden ----------------------------------------------------- */
