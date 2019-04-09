@@ -445,18 +445,9 @@ p, a, h4 {
 
 }
 
-/* ------------------------------------------------------- Mapbox ----------------------------------------------------- */
+/* ------------------------------------------------------- Multimediedesign ----------------------------------------------------- */
 
-.multimediedesign_object {
-    position: absolute;
-    background-color: #C0C1AD;
-    height: 15%;
-    width: 100%;
-    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
-    z-index: 20;
-    top: 96%;
-}
+
 
 .multimediedesign {
     background-color: #C0C1AD;
@@ -501,18 +492,14 @@ p, a, h4 {
     font-size: 2rem;
     color: black;
     height: 100px;
-    position: absolute;
-    top: 325%;
-    left: 48%;
 }
 
 
 .multimediedesign_opgave {
+    position: relative;
     background-color: #E8E6E1;
     height: 80%;
     width: 100%;
-    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
 }
 
 .multimediedesign_beskriv {
@@ -534,29 +521,97 @@ p, a, h4 {
 background-image: url(../Billeder/multimediekarriere.jpg);
 background-size: cover;
 height: 100%;
+width: 100%;
+position: relative;
 
 }
+
+.karrieren123 {
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+
 .multimediedesign_moverskrift {
     font-family: montserrat;
     text-align: center;
     font-size: 2.5rem;
     color: black;
     height: 100px;
-    position: relative;
-    top: 15%;
-    left: 10%;
+    width: 100%;
 }
 
 .multimediedesign_m2 {
     font-family: lato;
     font-size: 1.2rem;
     color: black;
-    position: relative;
-    top: 20%;
     text-align: justify;
 }
 
-/* ------------------------------------------------------- Multimediesiden ----------------------------------------------------- */
+.multimediedesign_opgaven {
+    font-family: flood;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    height: 100px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .computerbillede {
+        width: 50%;
+        left: 25%;
+        overflow-x: hidden;
+    }
+    
+    .multimediedesign {
+        text-align: center;
+        width: 100%; 
+    }
+
+    .youtube {
+        width: 100%;
+    }
+
+    .multimediedesign_moverskrift {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .karrieren123 {
+        background-color: white;
+        opacity: 0.9;
+        width: 100%;
+        left: 0%;
+    }
+.multimediedesign_h {
+    font-size: 1.8rem;
+}
+.multimediedesign_p {
+    font-size: 1rem;
+}
+
+
+.multimediedesign_beskriv {
+    position: relative;
+    top: 15%;
+    font-size: 1rem;
+}
+    
+.multimediedesign_mulighed {
+    font-size: 1rem;
+}
+
+.multimediedesign_opgave {
+
+}
+
+.multimediedesign_opgaven {
+  margin-top: 15%;
+    font-size: 1rem;
+}
+    
+}
 
 
 /* ------------------------------------------------------- Mapbox ----------------------------------------------------- */
