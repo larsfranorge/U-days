@@ -473,21 +473,21 @@ p, a, h4 {
 }
 
 .multimediedesign_p2 {
-    font-family: flood;
+    font-family: flood std;
     text-align: center;
     font-size: 1.5rem;
     color: yellow;
     height: 100px;
 }
 .multimediedesign_p3 {
-    font-family: flood;
+    font-family: flood std;
     text-align: center;
     font-size: 1.5rem;
     color: white;
     height: 100px;
 }
 .multimediedesign_mulighed {
-    font-family: flood;
+    font-family: flood std;
     text-align: center;
     font-size: 2rem;
     color: black;
@@ -550,7 +550,7 @@ position: relative;
 }
 
 .multimediedesign_opgaven {
-    font-family: flood;
+    font-family: flood std;
     text-align: center;
     font-size: 1.5rem;
     color: white;
