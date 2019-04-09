@@ -55,7 +55,6 @@ p, a, h4 {
     width: 100%;
     display: none;
     background-color: #fff;
-    opacity: .7;
     margin: 0;
 }
 
@@ -294,16 +293,17 @@ p, a, h4 {
 /* ----------------------------------------------------- Instagram sektion ---------------------------------------------------- */
 
 .instagram {
-    height: 50%;
-    background-color: #575E4D;
     position: relative;
-    top: -7%;
+    top: -7rem;
+}
+
+.instagram_heading {
+    font-size: 3rem;
+    text-align: center;
 }
 
 .instagram_box {
-    width: 80%;
-    transform: translateX(10%);
-    justify-content: center;
+    
 }
 
 /* ------------------------------------------------------- Aarhus sektion ----------------------------------------------------- */
@@ -762,6 +762,18 @@ position: relative;
         padding-left: 2.2rem;
     }
 
+    .header-kompas {
+        background-position: center;
+    }
+
+    .uddannelses_kompasset {
+        height: 140%;
+    }
+
+    .uddannelses_kompasset_billede {
+        width: 100%;
+        top: 15%;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -871,6 +883,13 @@ position: relative;
         padding-left: 0;
     }
 
-    
+    .uddannelses_kompasset {
+        height: 85%;
+    }
+
+    .uddannelses_kompasset_billede {
+        width: 120%;
+        top: 25%;
+    }
 
 }
