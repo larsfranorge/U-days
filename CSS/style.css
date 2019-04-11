@@ -135,8 +135,8 @@ p, a, h4 {
 .test {
     background-color: #E8E6E1;
     height: 130%;
-    -webkit-clip-path: polygon(0% 5%, 100% 18%, 100% 100%, 0 100%);
-    clip-path: polygon(0% 5%, 100% 18%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0% 5%, 100% 18%, 100% 100%, 65% 110%, 0 100%);
+    clip-path: polygon(0% 5%, 100% 18%, 100% 100%, 65% 110%, 0 100%);
     position: relative;
     top: -11rem;
 }
