@@ -130,7 +130,7 @@
                           <li>Design</li>
                           <li>Kommunikation</li>
                           <li>Programmering</li>
-                          <a href="../U-days/Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
+                          <a href="Multimediedesignersiden.html"><li class="mere">Se mere om uddannelsen</li></a>
                           <li class="mere_2"><i class="fas fa-plus"></i><span class="space"></span>Tilføj til program</li>
                       </ul>
                   </div>
@@ -138,7 +138,7 @@
               <div class="card__side card__side--back card__side--back-1">
                   <div class="card__cta">
                       <div class="card__price-box">
-                          <a href="../Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
+                          <a href="Multimediedesignersiden.html"><p class="card__price-value">Se mere om uddannelsen</p></a>
                           <a href="#" class="btn btn--white"><i class="fas fa-plus"></i> Tilføj til program</a>
                       </div>
                   </div>
