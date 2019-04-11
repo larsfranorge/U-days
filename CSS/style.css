@@ -151,6 +151,7 @@ p, a, h4 {
 .test_heading {
     font-size: 3rem;
     animation: moveInLeft 1s linear;
+    text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .test_box_part {
@@ -204,6 +205,7 @@ p, a, h4 {
 
 .rundvisning_heading {
     font-size: 3rem;
+    text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     
 }
 
@@ -242,6 +244,7 @@ p, a, h4 {
 
 .kompas_heading {
     font-size: 3rem;
+    text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .kompas_box_part {
@@ -300,6 +303,7 @@ p, a, h4 {
 .instagram_heading {
     font-size: 3rem;
     text-align: center;
+    text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .instagram_box {
