@@ -103,10 +103,9 @@ p, a, h4 {
 .header {
     background-image: url(../Billeder/womanwmobile.jpg);
     background-size: cover;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
     height: 120%;
     width: 100%;
+    z-index: 2;
 }
 
 .header_box {
@@ -136,9 +135,10 @@ p, a, h4 {
 .test {
     background-color: #E8E6E1;
     height: 130%;
+    -webkit-clip-path: polygon(0% 5%, 100% 18%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 5%, 100% 18%, 100% 100%, 0 100%);
     position: relative;
     top: -11rem;
-    z-index: -2;
 }
 
 .test_box {
